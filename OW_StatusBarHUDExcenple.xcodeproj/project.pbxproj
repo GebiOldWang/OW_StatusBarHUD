@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B809171C1CBCF00F00A70D95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B809171B1CBCF00F00A70D95 /* main.m */; };
-		B809171F1CBCF00F00A70D95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B809171E1CBCF00F00A70D95 /* AppDelegate.m */; };
-		B80917221CBCF00F00A70D95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80917211CBCF00F00A70D95 /* ViewController.m */; };
 		B80917251CBCF00F00A70D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80917231CBCF00F00A70D95 /* Main.storyboard */; };
 		B80917271CBCF00F00A70D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80917261CBCF00F00A70D95 /* Assets.xcassets */; };
 		B809172A1CBCF00F00A70D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80917281CBCF00F00A70D95 /* LaunchScreen.storyboard */; };
 		B80917351CBCF00F00A70D95 /* OW_StatusBarHUDExcenpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B80917341CBCF00F00A70D95 /* OW_StatusBarHUDExcenpleTests.m */; };
 		B80917401CBCF00F00A70D95 /* OW_StatusBarHUDExcenpleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B809173F1CBCF00F00A70D95 /* OW_StatusBarHUDExcenpleUITests.m */; };
-		B80917571CBCF0D400A70D95 /* OW_StatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B80917541CBCF0D400A70D95 /* OW_StatusBarHUD.bundle */; };
-		B80917581CBCF0D400A70D95 /* OW_StatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B80917561CBCF0D400A70D95 /* OW_StatusBarHUD.m */; };
+		B80917671CBCFD7600A70D95 /* OW_StatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B80917641CBCFD7600A70D95 /* OW_StatusBarHUD.bundle */; };
+		B80917681CBCFD7600A70D95 /* OW_StatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B80917661CBCFD7600A70D95 /* OW_StatusBarHUD.m */; };
+		B809176D1CBCFEA500A70D95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B809176A1CBCFEA500A70D95 /* AppDelegate.m */; };
+		B809176E1CBCFEA500A70D95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B809176C1CBCFEA500A70D95 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +39,6 @@
 /* Begin PBXFileReference section */
 		B80917171CBCF00F00A70D95 /* OW_StatusBarHUDExcenple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OW_StatusBarHUDExcenple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B809171B1CBCF00F00A70D95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B809171D1CBCF00F00A70D95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B809171E1CBCF00F00A70D95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B80917201CBCF00F00A70D95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B80917211CBCF00F00A70D95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B80917241CBCF00F00A70D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B80917261CBCF00F00A70D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B80917291CBCF00F00A70D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,9 +49,13 @@
 		B809173B1CBCF00F00A70D95 /* OW_StatusBarHUDExcenpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OW_StatusBarHUDExcenpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B809173F1CBCF00F00A70D95 /* OW_StatusBarHUDExcenpleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OW_StatusBarHUDExcenpleUITests.m; sourceTree = "<group>"; };
 		B80917411CBCF00F00A70D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B80917541CBCF0D400A70D95 /* OW_StatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OW_StatusBarHUD.bundle; sourceTree = "<group>"; };
-		B80917551CBCF0D400A70D95 /* OW_StatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OW_StatusBarHUD.h; sourceTree = "<group>"; };
-		B80917561CBCF0D400A70D95 /* OW_StatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OW_StatusBarHUD.m; sourceTree = "<group>"; };
+		B80917641CBCFD7600A70D95 /* OW_StatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OW_StatusBarHUD.bundle; sourceTree = "<group>"; };
+		B80917651CBCFD7600A70D95 /* OW_StatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OW_StatusBarHUD.h; sourceTree = "<group>"; };
+		B80917661CBCFD7600A70D95 /* OW_StatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OW_StatusBarHUD.m; sourceTree = "<group>"; };
+		B80917691CBCFEA500A70D95 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B809176A1CBCFEA500A70D95 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B809176B1CBCFEA500A70D95 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B809176C1CBCFEA500A70D95 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +106,8 @@
 		B80917191CBCF00F00A70D95 /* OW_StatusBarHUDExcenple */ = {
 			isa = PBXGroup;
 			children = (
-				B80917531CBCF0D400A70D95 /* OW_StatusBarHUD */,
-				B809171D1CBCF00F00A70D95 /* AppDelegate.h */,
-				B809171E1CBCF00F00A70D95 /* AppDelegate.m */,
-				B80917201CBCF00F00A70D95 /* ViewController.h */,
-				B80917211CBCF00F00A70D95 /* ViewController.m */,
-				B80917231CBCF00F00A70D95 /* Main.storyboard */,
+				B80917631CBCFD7600A70D95 /* OW_StatusBarHUD */,
+				B809176F1CBCFEAC00A70D95 /* class */,
 				B80917261CBCF00F00A70D95 /* Assets.xcassets */,
 				B80917281CBCF00F00A70D95 /* LaunchScreen.storyboard */,
 				B809172B1CBCF00F00A70D95 /* Info.plist */,
@@ -146,15 +142,27 @@
 			path = OW_StatusBarHUDExcenpleUITests;
 			sourceTree = "<group>";
 		};
-		B80917531CBCF0D400A70D95 /* OW_StatusBarHUD */ = {
+		B80917631CBCFD7600A70D95 /* OW_StatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				B80917541CBCF0D400A70D95 /* OW_StatusBarHUD.bundle */,
-				B80917551CBCF0D400A70D95 /* OW_StatusBarHUD.h */,
-				B80917561CBCF0D400A70D95 /* OW_StatusBarHUD.m */,
+				B80917641CBCFD7600A70D95 /* OW_StatusBarHUD.bundle */,
+				B80917651CBCFD7600A70D95 /* OW_StatusBarHUD.h */,
+				B80917661CBCFD7600A70D95 /* OW_StatusBarHUD.m */,
 			);
 			path = OW_StatusBarHUD;
 			sourceTree = SOURCE_ROOT;
+		};
+		B809176F1CBCFEAC00A70D95 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				B80917691CBCFEA500A70D95 /* AppDelegate.h */,
+				B809176A1CBCFEA500A70D95 /* AppDelegate.m */,
+				B809176B1CBCFEA500A70D95 /* ViewController.h */,
+				B809176C1CBCFEA500A70D95 /* ViewController.m */,
+				B80917231CBCF00F00A70D95 /* Main.storyboard */,
+			);
+			name = class;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -260,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B809172A1CBCF00F00A70D95 /* LaunchScreen.storyboard in Resources */,
-				B80917571CBCF0D400A70D95 /* OW_StatusBarHUD.bundle in Resources */,
+				B80917671CBCFD7600A70D95 /* OW_StatusBarHUD.bundle in Resources */,
 				B80917271CBCF00F00A70D95 /* Assets.xcassets in Resources */,
 				B80917251CBCF00F00A70D95 /* Main.storyboard in Resources */,
 			);
@@ -287,10 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B80917221CBCF00F00A70D95 /* ViewController.m in Sources */,
-				B809171F1CBCF00F00A70D95 /* AppDelegate.m in Sources */,
 				B809171C1CBCF00F00A70D95 /* main.m in Sources */,
-				B80917581CBCF0D400A70D95 /* OW_StatusBarHUD.m in Sources */,
+				B80917681CBCFD7600A70D95 /* OW_StatusBarHUD.m in Sources */,
+				B809176E1CBCFEA500A70D95 /* ViewController.m in Sources */,
+				B809176D1CBCFEA500A70D95 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
