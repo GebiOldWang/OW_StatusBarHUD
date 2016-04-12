@@ -1,18 +1,18 @@
 //
-//  OW_StatusBarHUDUITests.m
-//  OW_StatusBarHUDUITests
+//  OW_StatusBarHUDExcenpleUITests.m
+//  OW_StatusBarHUDExcenpleUITests
 //
-//  Created by 上海银来（集团）有限公司 on 16/4/5.
+//  Created by 上海银来（集团）有限公司 on 16/4/12.
 //  Copyright © 2016年 Old.Wang. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface OW_StatusBarHUDUITests : XCTestCase
+@interface OW_StatusBarHUDExcenpleUITests : XCTestCase
 
 @end
 
-@implementation OW_StatusBarHUDUITests
+@implementation OW_StatusBarHUDExcenpleUITests
 
 - (void)setUp {
     [super setUp];

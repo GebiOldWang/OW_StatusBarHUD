@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  OW_StatusBarHUD
+//  OW_StatusBarHUDExcenple
 //
-//  Created by 上海银来（集团）有限公司 on 16/4/5.
+//  Created by 上海银来（集团）有限公司 on 16/4/12.
 //  Copyright © 2016年 Old.Wang. All rights reserved.
 //
 
@@ -16,7 +16,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
     // Override point for customization after application launch.
     return YES;
 }
