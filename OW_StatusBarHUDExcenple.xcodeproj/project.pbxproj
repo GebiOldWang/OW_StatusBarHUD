@@ -86,6 +86,7 @@
 		B809170E1CBCF00E00A70D95 = {
 			isa = PBXGroup;
 			children = (
+				B80917631CBCFD7600A70D95 /* OW_StatusBarHUD */,
 				B80917191CBCF00F00A70D95 /* OW_StatusBarHUDExcenple */,
 				B80917331CBCF00F00A70D95 /* OW_StatusBarHUDExcenpleTests */,
 				B809173E1CBCF00F00A70D95 /* OW_StatusBarHUDExcenpleUITests */,
@@ -106,7 +107,6 @@
 		B80917191CBCF00F00A70D95 /* OW_StatusBarHUDExcenple */ = {
 			isa = PBXGroup;
 			children = (
-				B80917631CBCFD7600A70D95 /* OW_StatusBarHUD */,
 				B809176F1CBCFEAC00A70D95 /* class */,
 				B80917261CBCF00F00A70D95 /* Assets.xcassets */,
 				B80917281CBCF00F00A70D95 /* LaunchScreen.storyboard */,
